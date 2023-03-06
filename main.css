@@ -1,0 +1,93 @@
+/* Style to size image */
+#main image {
+	max-width: 60px;
+	max-height: 40px;
+}
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightblue;
+    font-size: xx-large;
+  }  
+
+/* Style for the header specifies and center align content */
+header {
+	margin-top: 0.2;
+	text-align: center;
+}
+
+/* Style for nav specifies properties navbar*/
+
+.navbar {
+	background-color: #d4e7e7;
+	margin-left: 6em;
+    margin-right: 6em;
+	padding: 1em;
+	font-size: x-large;
+	text-transform: uppercase;
+	word-spacing: 10em; 
+	border: black;
+}
+
+
+a:link { 
+	text-decoration: none; 
+}
+
+
+
+/* Style specifies properties for unordered list */
+nav ul {
+	padding: 0;
+    background-color: lightblue; 
+	list-style-type: bold; 
+    margin-left: 9em;
+    margin-right: 9em;
+    color: black; 
+	text-decoration: none;
+	
+}
+
+
+/* Style for the main specifies a block display, text properties, margins, padding, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+    margin-left: 9em;
+    margin-right: 9em;
+	padding: 1em;
+	background-color: #d4e7e7;
+	
+}
+
+/* Style for input specifies border */
+input {
+	border: none;
+}
+
+/* Style for textarea specifies border */
+textarea {
+	border: none;
+}
+
+/* Style for the small image wrapped by the text  */
+#text image{
+position: left; 
+}
+
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: right;
+    margin-left: 12.9em;
+    margin-right: 13em;
+	padding: 1em;
+	background-color: #d4e7e7;
+}

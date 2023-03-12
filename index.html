@@ -1,21 +1,20 @@
 <!DOCTYPE html>
+
 <!-- This website template was created by: Araujo, Gabriela 90541093105 -->
+
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="main.css">
-	<title>Template</title>
+	<title>midterm</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 </head>
-<body>
   <body style="background-color:powderblue;">
 
 	<!-- Use the header area for the main foto and title -->
 	<header>
-        <div><img src="images\starfish-1.jpg" alt="template image" width="1220", height="400"></div>
+        <div><img id= template src="images/starfish-1.jpg" alt="template image"></div>
         <div class="centered"> Lone Starfish</div>
-          </div>
-
 	</header>
 	
 	<!-- Use the main area to add the main content of the webpage -->
@@ -24,13 +23,14 @@
         <!-- Use the nav area to add hyperlinks to other pages within the website -->
         <div class="navbar">
           <a href="#home">Home</a>
-          <a href="#story">Story</a>
-          <a href="#news">Contact</a>
+          <a id="story" href="#story">Story</a>
+          <a href="#contact">Contact</a>
         </div>
-
+<br>
+<br>
   <!-- Use for a story paragraph -->
 	<h2>Life of a Starfish</h2>
-  <div><img src="images\starfish-2.jpg" alt="small image" width="150", height="120" style="float: left;" hspace="10" vspace="10"></div>
+  <img id= small src="images/starfish-2.jpg" alt="small image">
 		<p>Starfish live at sea. They do not have skeletons. They can reproduce both sexually and asexually. 
       They eat clams, mussels, and oysters. 
       Knowledge is everything you can learn, be that from an academical environment or through general experience. 
@@ -39,8 +39,7 @@
       Understanding that efforts made without knowledge will bring you wothless outcomes makes entrepreneurs better prepared for life and challenges, which sets them for success. As a student it is valuable to be aware of this connection and apply it generously for assured success. Now is the best time to use as an example of a disconnection between knowledge, effort, and outcome. When preparing to study in Canada, my efforts were great, but the general knowledge (about the country, about the course/school I chose, and so on) was lacking, which led to an underwhelming outcome (so far). 
       At the time, my mindset was positive. 
       I was excited for a great opportunity and a new chapter in my life (the outcome discrepancy only presented itself later).</p>
-      
-    <br>
+      <br>
   <!-- Use for a list of facts -->    
         <h3>Facts About Starfish</h3>
           
@@ -50,30 +49,31 @@
         <li>Herring barbel Mexican golden trout, killifish bonito; northen anchovy</li> 
         <li>Waryfish, "lionfish; longfin smelt; leopard dario dragonfish," Lost River sucker, mojarra.</li> 
         </ul> 
- 
-   <!-- Use form section-->     
-        <form>
-  
-          <legend style="font-weight: bold;">Contact to learn more</legend>
+ <br>
+ <br>
+   <!-- Use for form section-->     
+        
+          <lable id="lable">Contact to learn more</lable>
           <br>
+          <form>
             <fieldset>
               <br>
-              <label for="your name">Your Name</label>
+              <label id="name">Your Name</label>
+              <br>    
+              <input type="text" name="Text" size="167">
+              <br>
+              <br>
+              <label id="email">Your Email</label>
               <br>
               <input type="text" name="Text" size="167">
               <br>
               <br>
-              <label for="your email">Your Email</label>
+              <label id="message">Your message</label>
               <br>
-              <input type="text" name="Text" size="167">
-              <br>
-              <br>
-              <label for="your message">Your message</label>
-              <br>
-              <textarea name="your name" rows="4" cols="154"></textarea>
+              <textarea name="name" rows="4" cols="154"></textarea>
               <br>
               <br>
-              <label for="would you like to visit the starfish?">Would you like to visit the Starfish?</label>
+              <label id="contact">Would you like to visit the Starfish?</label>
               <br>
               <br>
               <input type="radio" name="radio-answer" value="yes">Yes
@@ -86,14 +86,10 @@
             
           </form>
 	</main>
-
 	<!-- Use the footer area to add webpage footer content -->
 	<footer>
 		&copy; Lone Starfish.<br>
     <br>
 	</footer>
-
-	</div>
-	
 </body>
 </html>
